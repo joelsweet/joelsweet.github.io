@@ -7,7 +7,7 @@
 html,
 body {
     height: 100%;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .carousel,
@@ -36,7 +36,73 @@ footer {
     margin: 50px 0;
 }
 
-.navbar {
+/*.navbar {
     margin-bottom: 0px;
+    max-height: none;
 }
 
+.form-control {
+    width:100%;
+}*/
+
+.navbar-form {
+    max-width: 100%;
+   /* padding:initial;*/
+}
+
+
+/* footer styles
+-------------------------------------------------- */
+html {
+  height: 100%;
+}
+body {
+  height:100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+}
+
+
+/* Responsive Style */
+
+@media (min-width: 1200px) {
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-lg-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;}
+    .navbar-nav>li>a {
+    padding:15px 7px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
